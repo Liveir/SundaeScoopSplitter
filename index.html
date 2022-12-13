@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sundae Scoop Splitter</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Sundae</span>Scoop<span class="text-secondary">Splitter</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Sundae</span>Scoop<span class="text-secondary">Splitter</span></h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Find out how much</h4>
+                            <h1 class="display-3 text-white mb-md-4">Each Scoop Costs</h1>
+                            <button onclick="document.getElementById('products').scrollIntoView();" class="btn btn-primary py-md-3 px-md-5 mt-2">BEGIN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Flavors Start -->
+    <div id="products" class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Mix n' Match Five of Your Favorite Flavors</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form name="flavor-form">
+                        <div class="owl-carousel product-carousel flavors">
+
+                            <div id="flavor1" class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3 height" style="height: 350px">
+                                <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                    <h4 class="font-weight-bold text-white mb-0">1</h4>
+                                </div>
+                                <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                    <img class="rounded-circle w-100 h-100" src="img/product-1.jpg" style="object-fit: cover;">
+                                </div>
+                                <h5 class="font-weight-bold mb-4">Belgian Chocolate</h5>
+                            </div>
+    
+                            <div id="flavor2" class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3" style="height: 350px">
+                                <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                    <h4 class="font-weight-bold text-white mb-0">2</h4>
+                                </div>
+                                <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                    <img class="rounded-circle w-100 h-100" src="img/product-2.jpg" style="object-fit: cover;">
+                                </div>
+                                <h5 class="font-weight-bold mb-4">Pistachio</h5>
+                            </div>
+    
+                            <div id="flavor3" class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3" style="height: 350px">
+                                <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                    <h4 class="font-weight-bold text-white mb-0">3</h4>
+                                </div>
+                                <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                    <img class="rounded-circle w-100 h-100" src="img/product-3.jpg" style="object-fit: cover;">
+                                </div>
+                                <h5 class="font-weight-bold mb-4">Strawberry</h5>
+                            </div>
+    
+                            <div id="flavor4" class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3" style="height: 350px">
+                                <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                    <h4 class="font-weight-bold text-white mb-0">4</h4>
+                                </div>
+                                <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                    <img class="rounded-circle w-100 h-100" src="img/product-4.jpg" style="object-fit: cover;">
+                                </div>
+                                <h5 class="font-weight-bold mb-4">Mango</h5>
+                            </div>
+    
+                            <div id="flavor5" class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3" style="height: 350px">
+                                <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                    <h4 class="font-weight-bold text-white mb-0">5</h4>
+                                </div>
+                                <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                    <img class="rounded-circle w-100 h-100" src="img/product-5.jpg" style="object-fit: cover;">
+                                </div>
+                                <h5 class="font-weight-bold mb-4">Cookies & Cream</h5>
+                            </div>
+    
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Flavors End -->
+
+    <!-- Customers Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">How Many Scoops for Each Customer?</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel team-carousel">
+                        
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <label>
+                                    <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                                </label>
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 1</h3>
+                                <button id="show-scoop1" class="btn btn-sm btn-secondary">Choose</button>
+                            </div>
+                        </div>
+                        
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <label>
+                                    <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                                </label>
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 2</h3>
+                                <button id="show-scoop2" class="btn btn-sm btn-secondary">Choose</button>
+                            </div>
+                        </div>
+
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <label>
+                                    <img class="rounded-circle w-100 h-100" src="img/testimonial-2.jpg" style="object-fit: cover;">
+                                </label>
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 3</h3>
+                                <button id="show-scoop3" class="btn btn-sm btn-secondary">Choose</button>
+                            </div>
+                        </div>
+
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <label>
+                                    <img class="rounded-circle w-100 h-100" src="img/testimonial-3.jpg" style="object-fit: cover;">
+                                </label>
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 4</h3>
+                                <button id="show-scoop4" class="btn btn-sm btn-secondary">Choose</button>
+                            </div>
+                        </div>
+
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <label>
+                                    <img class="rounded-circle w-100 h-100" src="img/testimonial-1.jpg" style="object-fit: cover;">
+                                </label>
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 5</h3>
+                                <button id="show-scoop5" class="btn btn-sm btn-secondary">Choose</button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Customers End -->
+
+    <!-- Popups Start -->
+    <div class="popup1">
+        <div class="col-12">
+            <div class="team-item">
+                <div class="team-img mx-auto">
+                    <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                </div>
+                <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                    <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 1</h3>
+                    <h6 class="text-uppercase text-muted mb-4">How many scoops for each flavour?</h6>
+                    <div>
+                        <h6 class="position-fixed font-weight-bold">Belgian Chocolate</script></h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a11" name="a11" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Pistachio</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a12" name="a12" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Strawberry</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a13" name="a13" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Mango</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a14" name="a14" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Cookies & Cream</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a15" name="a15" min="1" max="6" placeholder="1"></input>
+                        <br>
+                    </div>
+                    <h4 class="font-weight-bold mt-3 mb-3 pt-3">Cost of Sundae?</h4>
+                    <input class="align-content-center cost-input" type="text" size="4" id="r1" name="r1" placeholder="1"></input>
+                    <br><br>
+                    <div class="close-popup">
+                        <a class="btn btn-sm btn-secondary">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup2">
+        <div class="col-12">
+            <div class="team-item">
+                <div class="team-img mx-auto">
+                    <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                </div>
+                <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                    <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 2</h3>
+                    <h6 class="text-uppercase text-muted mb-4">How many scoops for each flavour?</h6>
+                    <div>
+                        <h6 class="position-fixed font-weight-bold">Belgian Chocolate</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a21" name="a21" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Pistachio</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a22" name="a22" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Strawberry</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a23" name="a23" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Mango</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a24" name="a24" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Cookies & Cream</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a25" name="a25" min="1" max="6" placeholder="1"></input>
+                        <br>
+                    </div>
+                    <h4 class="font-weight-bold mt-3 mb-3 pt-3">Cost of Sundae?</h4>
+                    <input class="align-content-center cost-input" type="text" size="4" id="r2" name="r2" placeholder="1"></input>
+                    <br><br>
+                    <div class="close-popup">
+                        <a class="btn btn-sm btn-secondary">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup3">
+        <div class="col-12">
+            <div class="team-item">
+                <div class="team-img mx-auto">
+                    <img class="rounded-circle w-100 h-100" src="img/testimonial-2.jpg" style="object-fit: cover;">
+                </div>
+                <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                    <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 3</h3>
+                    <h6 class="text-uppercase text-muted mb-4">How many scoops for each flavour?</h6>
+                    <div>
+                        <h6 class="position-fixed font-weight-bold">Belgian Chocolate</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a31" name="a31" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Pistachio</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a32" name="a32" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Strawberry</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a33" name="a33" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Mango</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a34" name="a34" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Cookies & Cream</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a35" name="a35" min="1" max="6" placeholder="1"></input>
+                        <br>
+                    </div>
+                    <h4 class="font-weight-bold mt-3 mb-3 pt-3">Cost of Sundae?</h4>
+                    <input class="align-content-center cost-input" type="text" size="4" id="r3" name="r3" placeholder="1"></input>
+                    <br><br>
+                    <div class="close-popup">
+                        <a class="btn btn-sm btn-secondary">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup4">
+        <div class="col-12">
+            <div class="team-item">
+                <div class="team-img mx-auto">
+                    <img class="rounded-circle w-100 h-100" src="img/testimonial-3.jpg" style="object-fit: cover;">
+                </div>
+                <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                    <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 4</h3>
+                    <h6 class="text-uppercase text-muted mb-4">How many scoops for each flavour?</h6>
+                    <div>
+                        <h6 class="position-fixed font-weight-bold">Belgian Chocolate</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a41" name="a41" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Pistachio</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a42" name="a42" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Strawberry</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a43" name="a43" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Mango</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a44" name="a44" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Cookies & Cream</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a45" name="a45" min="1" max="6" placeholder="1"></input>
+                        <br>
+                    </div>
+                    <h4 class="font-weight-bold mt-3 mb-3 pt-3">Cost of Sundae?</h4>
+                    <input class="align-content-center cost-input" type="text" size="4" id="r4" name="r4" placeholder="1"></input>
+                    <br><br>
+                    <div class="close-popup">
+                        <a class="btn btn-sm btn-secondary">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup5">
+        <div class="col-12">
+            <div class="team-item">
+                <div class="team-img mx-auto">
+                    <img class="rounded-circle w-100 h-100" src="img/testimonial-1.jpg" style="object-fit: cover;">
+                </div>
+                <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                    <h3 class="font-weight-bold mt-5 mb-3 pt-5">Customer 5</h3>
+                    <h6 class="text-uppercase text-muted mb-4">How many scoops for each flavour?</h6>
+                    <div>
+                        <h6 class="position-fixed font-weight-bold">Belgian Chocolate</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a51" name="a51" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Pistachio</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a52" name="a52" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Strawberry</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a53" name="a53" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Mango</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a54" name="a54" min="1" max="6" placeholder="1"></input>
+                        <br>
+                        <h6 class="position-fixed font-weight-bold">Cookies & Cream</h6>
+                        <input class="position-fixed flavor-input" type="number" size="4" id="a55" name="a55" min="1" max="6" placeholder="1"></input>
+                        <br>
+                    </div>
+                    <h4 class="font-weight-bold mt-3 mb-3 pt-3">Cost of Sundae?</h4>
+                    <input class="align-content-center cost-input" type="text" size="4" id="r5" name="r5" placeholder="1"></input>
+                    <br><br>
+                    <div class="close-popup">
+                        <a class="btn btn-sm btn-secondary">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <button onclick="cramer5()" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">i</span>SUBMIT<span class="text-secondary">!</span></h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/cramer.js"></script>
+</body>
+
+</html>
